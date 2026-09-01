@@ -1,8 +1,14 @@
+import { Toaster } from "sonner";
+
+import AppRoutes from "@/routes/AppRoutes";
 
 function App() {
-
   return (
-    <>HELLO SACHIN</>
-  )
+    <>
+      <AppRoutes />
+      <Toaster />
+    </>
+  );
 }
-export default App
+
+export default App;
